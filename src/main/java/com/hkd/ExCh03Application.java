@@ -5,9 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-
-//@ComponentScan(basePackages = { "com.hkd.demo", "com.hkd.mybatis", "com.hkd.ex_thymleaf" })
-//@MapperScan("com.hkd.mybatis")
+@ComponentScan(basePackages = { "com.hkd.demo", "com.hkd.mybatis", "com.hkd.ex_thymleaf" })
+@MapperScan("com.hkd.mybatis")
 @SpringBootApplication
 public class ExCh03Application {
 
